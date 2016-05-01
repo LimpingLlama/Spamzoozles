@@ -1,0 +1,37 @@
+.post-header {
+  background-color: lighten($dark-blue, 10%)
+}
+.post-content {
+  max-width: 1000px;
+  text-align: center;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 300;
+  color: black;
+  opacity: 54%;
+  text-align: left;
+}
+.post-title-content {
+  color: black;
+  opacity: 87%;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 70px;
+}
+
+.post-underline {
+  max-width: 200px;
+  border-bottom: thick black solid
+}
+
+// Styles For Things INSIDE posts
+
+.hint {
+  font-style: italic;
+  background: #ccc;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  margin-left: auto;
+}

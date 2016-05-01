@@ -1,0 +1,67 @@
+.post-box {
+  width: 100%;
+  height: auto;
+  background: $royal-blue;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  padding-bottom: 50px;
+}
+
+.post-finish {
+  width: 100%;
+  height: 50px;
+  background: white;
+  box-shadow: 0 2px 70px 0 rgba(0,0,0,0.5)
+}
+
+.spam-title {
+  font-family: "Roboto";
+  text-align: center;
+  font-size: 100px;
+    @media screen and (max-width: 840px) {
+      font-size: 70px;
+    }
+
+    @media screen and (max-width: 360px) {
+    font-size: 40px;
+    }
+
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.spam-date {
+  font-family: "Roboto";
+  text-align: center;
+  font-weight: 300;
+  font-size: 150%;
+  @media screen and (max-width: 360) {
+    max-width: 100%;
+  }
+  text-decoration: none;
+  font-style: italic;
+}
+
+.spam-rank {
+  font-family: "Roboto";
+  text-align: center;
+  font-weight: 300;
+  font-size: 150%;
+  @media screen and (max-width: 360) {
+    font-size: 100%
+  }
+  text-decoration: none;
+}
+
+hr {
+  max-width: 600px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.post-box:hover {
+  background: lighten($royal-blue, 20%)
+}

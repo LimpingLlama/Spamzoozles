@@ -1,0 +1,23 @@
+header {
+  width: 100%;
+  height: auto;
+  background: $dark-blue;
+  padding: 10px;
+}
+
+.title {
+  font-size: 250%;
+  border-radius: 50%;
+  padding: 3px;
+  display: inline;
+}
+
+.nav {
+  font-size: 150%;
+  border-radius: 50%;
+  padding: 3px;
+  display: inline;
+  float: right;
+  margin-right: 20px;
+  font-weight: 300;
+}

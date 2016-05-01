@@ -1,0 +1,12 @@
+{% for post in site.posts %}
+<a href="{{ post.url }}"><div class="post-box">
+  <br><br><br><br>
+  <p class="spam-title">{{ post.title }}</p>
+  <hr>
+  <br><br>
+  <p class="spam-date"><em>{{ post.date | date: "%b %-d, %Y" }}</em></p>
+  <br>
+  <p class="spam-rank">{{ post.rank }}</p>
+</div>
+<div class="post-finish"></div></a>
+{% endfor %}
