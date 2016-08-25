@@ -1,5 +1,5 @@
 $(document).ready(function(){
 
-  $('.menu-out').addClass('menu-in')
+  $('.menu-out').addClass('menu-in');
 
 });
